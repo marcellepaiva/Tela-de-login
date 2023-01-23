@@ -1,5 +1,5 @@
 body{
-    background: #051542; 
+    background: #1840ad; 
 }
 .c{
     position: absolute;
@@ -35,7 +35,7 @@ form a{
     font-size: 12px;
 }
 form a:hover{
-    text-shadow: 2px 2px 6px #00000040;
+    text-shadow: 2px 2px 6px #ffffff;
 
 }
 form a:active{
@@ -53,7 +53,7 @@ form input{
     backdrop-filter: blur(5px);
     box-shadow: 4px 4px 60px rgba(177, 175, 175, 0.2);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: #000;
+    color: #ffffff;
     font-weight: bold;
     transition: all 0.2s ease-in-out;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
@@ -64,8 +64,8 @@ form input:hover{
 }
 form input[type="email"]:focus,
 form input[type="email"]:focus{
-    color: rgb(0, 0, 0);
-    background: rgba(39, 39, 39, 0.1);
+    color: #ffffff;
+    background: rgba(255, 238, 238, 0.1);
     box-shadow: 4px 4px 60px 8px#fff(0, 0, 0, 0.2);
 }
 
@@ -75,3 +75,4 @@ form input[type="button"]{
     font-size: 1rem;
     background: linear-gradient(to right, rgb(10, 14, 233),
     rgb(10, 14, 233), rgb(255, 255, 255)
+}
